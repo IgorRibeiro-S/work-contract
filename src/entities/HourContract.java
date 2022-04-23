@@ -3,11 +3,11 @@ package entities;
 import java.util.Date;
 
 public class HourContract {
-	Date date;
-	Double valuePerHour;
-	Integer hours;
+	private Date date;
+	private Double valuePerHour;
+	private Integer hours;
 
-	private HourContract() {
+	private HourContract(){
 	}
 
 	public HourContract(Date date, Double valuePerHour, Integer hours) {
